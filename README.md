@@ -34,17 +34,17 @@ This project uses the UCI Breast Cancer Wisconsin dataset to detect malignant an
 ## ⚙️ Installation
 
 1. Clone the repo:
-  ```bash
-  git clone https://github.com/shahmi0519/Breast-Cancer-Detection.git
-  ```
+    ```bash
+    git clone https://github.com/shahmi0519/Breast-Cancer-Detection.git
+    ```
 2. Install dependencies:
-  ```bash
-  pip install -r requirements.txt
-  ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 3. Run the notebook:
-  ```bash
-  jupyter notebook notebooks/breast_cancer_detection.ipynb
-  ```
+    ```bash
+    jupyter notebook notebooks/breast_cancer_detection.ipynb
+    ```
 ---
 
 ## 💾 Model Export
