@@ -34,5 +34,52 @@ This project uses the UCI Breast Cancer Wisconsin dataset to detect malignant an
 ## ⚙️ Installation
 
 1. Clone the repo:
+  ```bash
+  git clone https://github.com/shahmi0519/Breast-Cancer-Detection.git
+  ```
+2. Install dependencies:
+  ```bash
+  pip install -r requirements.txt
+  ```
+3. Run the notebook:
+  ```bash
+  jupyter notebook notebooks/breast_cancer_detection.ipynb
+  ```
+---
+
+## 💾 Model Export
+
+The trained model is saved in:
+  ```bash
+  model/my_model.keras
+  ```
+
+You can load it later using:
+  ```bash
+  from tensorflow.keras.models import load_model
+  model = load_model('model/my_model.keras')
+  ```
+---
+
+## 📂 Project Structure
+
 ```bash
-git clone https://github.com/yourusername/breast-cancer-detection.git
+breast-cancer-detection/
+├── notebooks/
+│   └── breast_cancer_detection.ipynb
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
+---
+
+## ✍️ Author
+**Ahamed Shahmi A.J**
+- **📧 Mail**: [`shahmiahamed0519@gmail.com`](mailto:shahmiahamed0519@gmail.com)
+- **🔗 LinkedIn**: [`Ahamed Shahmi`](https://www.linkedin.com/in/ahamed-shahmi-abduljabbar/)
+- **💻 GitHub**: [`shahmi0519`](https://github.com/shahmi0519)
+
+---
+## 📝 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
